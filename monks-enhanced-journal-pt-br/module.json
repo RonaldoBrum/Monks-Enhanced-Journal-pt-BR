@@ -1,0 +1,26 @@
+{
+  "name": "hero-creation-tool-pt-BR",
+  "title": "Hero Creation Tool em pt-BR",
+  "description": "Tradução da ferramenta de criação de personagens Hero Creation Tool",
+  "author": "Ronaldo Brum",
+   "version": "1.0.0",
+   "minimumCoreVersion": "0.8.9",
+   "compatibleCoreVersion":"9",
+  "esmodules": ["babele-register.js"],
+  "url":"https://github.com/RonaldoBrum/hero-creation-tool-pt-BR",
+  "manifest": "https://raw.githubusercontent.com/RonaldoBrum/hero-creation-tool-pt-BR/main/hero-creation-tool-pt-BR/module.json",
+  "download": "https://github.com/RonaldoBrum/hero-creation-tool-pt-BR/archive/refs/heads/main.zip",
+  "languages":[
+      {
+         "lang": "pt-BR",
+         "name": "Português (Brasil)",
+         "path":"pt-br.json"
+      }
+   ],
+   "dependencies":[
+      {
+         "name":"babele",
+         "manifest":"https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
+      }
+   ]
+}
